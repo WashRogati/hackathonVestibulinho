@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --cor1: #E0012E;
+    --cor2: #fff;
+    --cor3: #000;
+    --cor4: #2525f0;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+
+    padding-top: 24px;
+
+    justify-content: center;
+    align-items: center;
+
+    font-size: 18px;
+    color: var(--cor1);
+}
+
+/* PARTES COM CARDS DE PROVAS*/
+
+.cards {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+
+    font-size: 20px;
+
+    height: 100%;
+
+
+
+}
+
+.p2023 {
+    color: #A91813;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.cards button {
+    border: none;
+    border-radius: 12px;
+
+    width: 200px;
+    height: 30px;
+
+    background-color: var(--cor1);
+
+    font-size: 16px;
+    color: var(--cor2);
+
+    cursor: pointer;
+}
+
+.gab {
+    font-size: 18px;
+    color: var(--cor4);
+    font-weight: 500;
+
+    gap: 16px;
+
+    cursor: pointer;
+}
+
+
+.bt1 {
+    margin-top: 120px;
+}
+
+
+.card1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+
+    margin: 24px;
+
+    width: 240px;
+    height: 320px;
+
+
+    border-radius: 0.6rem;
+    
+    box-shadow: 0 2px 7px rgb(14 55 54 / 15%);
+
+}
+
+.card2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+
+    margin: 24px;
+    padding: 12px;
+
+
+    width: 240px;
+    height: 320px;
+
+    border-radius: 0.6rem;
+    
+    box-shadow: 0 2px 7px rgb(14 55 54 / 15%);
+}
+
+.card3 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+
+    margin: 24px;
+    padding: 12px;
+
+
+    width: 240px;
+    height: 320px;
+
+    border-radius: 0.6rem;
+    
+    box-shadow: 0 2px 7px rgb(14 55 54 / 15%);
+
+}
+
+.card4 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+
+
+    margin: 24px;
+    padding: 12px;
+
+
+    width: 240px;
+    height: 320px;
+
+    border-radius: 0.6rem;
+    
+    box-shadow: 0 2px 7px rgb(14 55 54 / 15%);
+
+}
+
+.card1 button {
+
+    margin-top: 80px;
+}
+
+.card2 button {
+
+    margin-top: 110px;
+}
+
+.card3 button {
+
+    margin-top: 50px;
+}
+
+.card4 button {
+
+    margin-top: 200px;
+}

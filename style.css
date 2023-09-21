@@ -1,0 +1,86 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Poppins";
+  font-weight: 500;
+}
+
+body {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+
+header {
+  width: 85vw;
+  height: 60px;
+  background-color: #e0012e;
+  margin-top: 15px;
+  border-radius: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#menu {
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  width: 85vw;
+}
+
+#menu > a {
+  color: white;
+}
+
+#menu > a:hover {
+    font-size: 1.4rem;
+    color: white;
+  }
+
+main {
+  width: 85vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.container-1 {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 80vh;
+}
+
+.estudante {
+  min-width: 40%;
+}
+
+h1 {
+  font-size: 4.5rem;
+}
+
+.buttonProvas {
+  border-radius: 12px;
+  border: none;
+  background-color: red;
+  color: white;
+  padding: 10px;
+  width: fit-content;
+}
+
+
+.buttonProvas:hover{
+    transform: scale(1.1);
+    box-shadow: 0 1px 10px red;
+}
